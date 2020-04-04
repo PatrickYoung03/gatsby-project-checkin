@@ -7,15 +7,16 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1>Welcome to your isolation "check up". How are you doing?</h1>
+    <Link to="/page-3/">Questions></Link>
   </Layout>
 )
 
 export default IndexPage
+
+// a title descrbinig what the webpage does
+// 'a check in' for isolation.
+// a set of questions as you answer each one it takes you to the next question
+// questions include 'have you had breakfast', 'have you spoken to anyone on the phone'
+// collates a score based on your answers, reccomends things to do if your score is shit
+// caluclates your score each day, reviews it, can display daily, weekly and monhtly 'scores/progression'
